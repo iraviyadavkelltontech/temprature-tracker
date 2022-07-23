@@ -12,6 +12,13 @@
       "sourceMap": true,
       "target": "esnext",
     },
+    "ts-node": {
+      "transpileOnly": true,
+      "files": true,
+      "compilerOptions": {
+        "rootDir": "."
+      }
+    },
     "exclude": [
       "node_modules"
     ]
