@@ -60,15 +60,3 @@ export default class TempTracker {
   }
   
   
-//   //Execution 
-//   var temp = new TempTracker();
-  
-//   temp.insert(10);
-//   temp.insert(25);
-//   temp.insert(22);
-//   temp.insert(80);
-  
-//   console.log(temp.get_min());
-//   console.log(temp.get_max());
-//   console.log(temp.get_mean());
-  
