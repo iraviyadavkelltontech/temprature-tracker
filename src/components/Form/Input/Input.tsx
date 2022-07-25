@@ -29,6 +29,7 @@ const Input = React.forwardRef<HTMLInputElement, InputProps>((fields, ref) => {
         placeholder={placeholder}
         defaultValue={value}
         className={className}
+        data-testid={name}
       />
       <div className="invalid-feedback">{errorMessage}</div>
     </div>

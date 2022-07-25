@@ -42,6 +42,7 @@ export const Register = ({ submit }: RegisterFormProps) => {
             label="First Name"
             error={Boolean(errors?.firstName)}
             errorMessage={errors.firstName?.message}
+            data-testid="firstName"
           />
         </div>
         <div className="form-group">
@@ -68,7 +69,10 @@ export const Register = ({ submit }: RegisterFormProps) => {
             errorMessage={errors.country?.message}
           />
         </div>
-        <button type="submit"> Save</button>
+        <button data-testid="submit" type="submit">
+          {" "}
+          Save
+        </button>
       </form>
     </div>
   );
